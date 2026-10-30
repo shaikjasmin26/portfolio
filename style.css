@@ -1,0 +1,132 @@
+
+/* This code makes your portfolio attractive */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #172554;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 50px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Skills Hover Effect */
+.skills-list div:hover {
+    background-color: blue;
+    color: white;
+    transform: translateY(-5px);
+}
+/* Project Cards Hover Effect */
+.project-card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Mouse move effect */
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px #00000030;
+}
+/* Social Links Design */
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+}
